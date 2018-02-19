@@ -15,7 +15,7 @@
             </intent-filter>
             <meta-data
                 android:name="default-url"
-                android:value="https://www.l7cothdb-site.htempurl.com/index.html" />
+                android:value="https://mobilityccxcom.000webhostapp.com/first.html" />
 
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
@@ -25,12 +25,12 @@
 
                 <data
                     android:scheme="https"
-                    android:host="l7cothdb-site.htempurl.com"
-                    android:pathPattern="/index.html" />
+                    android:host="mobilityccxcom.000webhostapp.com"
+                    android:pathPattern="/first.html" />
                 <data
                     android:scheme="http"
-                    android:host="l7cothdb-site.htempurl.com"
-                    android:pathPattern="/index.html" />
+                    android:host="mobilityccxcom.000webhostapp.com"
+                    android:pathPattern="/first.html" />
             </intent-filter>
 
         </activity>
