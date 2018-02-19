@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobilityccx.acmesportsdemo.feature">
+
+    <application>
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="default-url"
+                android:value="https://www.l7cothdb-site.htempurl.com/index.html" />
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="l7cothdb-site.htempurl.com"
+                    android:pathPattern="/index.html" />
+                <data
+                    android:scheme="http"
+                    android:host="l7cothdb-site.htempurl.com"
+                    android:pathPattern="/index.html" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
